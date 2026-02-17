@@ -874,4 +874,3 @@ def mark_messages_read(request, email):
             {'success': False, 'error': str(e)},
             status=status.HTTP_500_INTERNAL_SERVER_ERROR
         )
-
